@@ -10,6 +10,15 @@ const generateId = () => {
   return idAcc;
 };
 
+const imgbg = require("../src/img/HappyPlanner.jpg");
+
+const divStyle = {
+  width: "100%",
+  height: "100%",
+  backgroundImage: `url(${imgbg})`,
+  backgroundSize: "cover"
+};
+
 export default function App() {
   const [tasks, setTasks] = useState([]);
 
@@ -43,7 +52,7 @@ export default function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" style={divStyle}>
       <Navbar />
       <div className="container">
         <Tasklist

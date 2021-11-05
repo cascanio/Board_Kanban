@@ -44,6 +44,7 @@ img {
 .App {
   font-family: Helvetica, sans-serif;
   background-color: white;
+  background-image: url("HappyPlanner.jpg");
   height: 100%;
   min-height: 100vh;
   color: rgb(50, 50, 50);
@@ -58,3 +59,4 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 8px;
 }
+/* End CSS Reset */

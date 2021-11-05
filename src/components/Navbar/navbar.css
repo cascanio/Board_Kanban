@@ -1,7 +1,17 @@
 .navbar {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 8px;
+  text-align: center;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 0, auto;
+  padding: 10px;
+  height: 60px;
   color: white;
+  font-family: "Mochiy Pop One", sans-serif;
   font-weight: bold;
 }
