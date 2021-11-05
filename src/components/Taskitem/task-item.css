@@ -1,0 +1,56 @@
+/* .task-item {
+  background-color: #fff;
+  border-radius: 3ox;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+  cursor: pointer;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 8px 4px;
+  color: #222;
+  font-size: 14px;
+} */
+
+.task-item {
+  padding: 2em;
+  margin: 1em auto;
+  /* margin: 0.5em; */
+  background: rgb(255, 215, 7);
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  min-height: 5em;
+  min-width: 12em;
+}
+
+/* .task-item:after {
+  content: "";
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+  right: 2em;
+  border-width: 1em;
+  border-style: solid;
+  border-color: rgb(255, 215, 7);
+}
+.task-item:before {
+  content: "";
+  position: absolute;
+  bottom: -2em;
+  right: 0;
+  border-width: 2em 2em 0 0;
+  border-style: solid;
+  border-color: darken(rgb(255, 215, 7), 10%) transparent;
+} */
+
+.task-item input[type="text"] {
+  border: none;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+
+.task-item select {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
