@@ -66,7 +66,7 @@ export default function App() {
         <Tasklist
           title="In Progress"
           onAddTask={addTask}
-          taskState="In Progress"
+          taskState="InProgress"
           tasks={tasks.filter((t) => t.state === "InProgress")}
           onTaskUpdate={updateTask}
           onDeleteTask={deleteTask}
